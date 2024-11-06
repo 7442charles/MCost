@@ -1,16 +1,23 @@
-# mcost
+# MCost
 
-A new Flutter project.
+MCost is a mobile application designed to help users analyze transaction costs associated with M-Pesa in Kenya. The app reads M-Pesa transaction messages from the user's SMS inbox (with their consent) and provides detailed insights into transaction fees, spending patterns, and other analytics. This is a tool for users to track and understand their transaction costs, making it easier to manage their finances.
+
+## Features
+
+- **SMS Transaction Analysis**: Extracts M-Pesa transaction messages from the SMS inbox to analyze transaction costs.
+- **User Consent Required**: Ensures that users allow SMS reading permissions for functionality.
+- **Cost Insights**: Displays transaction fees and provides a breakdown of spending patterns.
+- **Data Privacy**: Collected user data is used solely for analysis and is not used for any malicious purposes.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter SDK**: Ensure you have Flutter installed. Follow the [official guide](https://flutter.dev/docs/get-started/install) to set it up.
+- **Permissions**: The app will require permission to read SMS messages from the user's inbox.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/7442charles/MCost.git
