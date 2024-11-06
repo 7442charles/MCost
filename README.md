@@ -9,15 +9,3 @@ MCost is a mobile application designed to help users analyze transaction costs a
 - **Cost Insights**: Displays transaction fees and provides a breakdown of spending patterns.
 - **Data Privacy**: Collected user data is used solely for analysis and is not used for any malicious purposes.
 
-## Getting Started
-
-### Prerequisites
-
-- **Flutter SDK**: Ensure you have Flutter installed. Follow the [official guide](https://flutter.dev/docs/get-started/install) to set it up.
-- **Permissions**: The app will require permission to read SMS messages from the user's inbox.
-
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/7442charles/MCost.git
